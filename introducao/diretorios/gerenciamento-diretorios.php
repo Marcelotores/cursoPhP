@@ -18,6 +18,16 @@
 	if (!checkDir($setDir)):
 	    mkdir($setDir, 0777);
 	endif;
+
+	if (checkDir($setDir)) {
+		//rmdir($setDir);
+	}
+
+	rename("{$getDir}/05", "{$setDir}");
+
+
+	//rename($setDir, "{$getDir}/uploads");
+
 /*
 	$dirAtual = getcwd();
 
