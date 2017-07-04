@@ -1,8 +1,18 @@
 <?php 
 
+	/**
+	* <b>InteracaoObjetos:</b>
+	* Essa classe foi criada para mostrar a interação de objetos.
+	*
+	*
+	* @copyright (c) 2017, Marcelo Torres
+	*/
+
 	class InteracaoObjetos {
 
+		/** @var string nome da empresa */
 		public $Empresa;
+		/** @var int quantidade de setores da empresa, este atributo é incrementado */
 		public $Setores;
 		/* var @InteracaoClasses */
 		public $Funcionario;
