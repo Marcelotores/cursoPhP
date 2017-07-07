@@ -14,12 +14,12 @@
 
 		public function formar() {
 			$this->Formacao[] = $this->Curso;
-			echo "<hr>O aluno {$this->Nome} acaba de se formar em {$this->Curso}<hr>";
+			echo "<hr> O aluno {$this->Nome} acaba de se formar em {$this->Curso}<hr>";
 		}
 
 		public function matricular($Curso) {
 			$this->Curso = $Curso;
-			echo "<hr>Aluno acaba de se matricular em {$Curso}<hr>";
+			echo "<hr> Aluno acaba de se matricular em {$Curso}<hr>";
 		}
 		
 	}
